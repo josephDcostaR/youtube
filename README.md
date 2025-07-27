@@ -15,29 +15,6 @@ Uma reprodução simplificada da interface do YouTube, desenvolvida com **HTML**
 
 ---
 
-## 📁 Estrutura de Pastas
-
-📦 projeto/
-├── index.html
-├── README.md
-├── /assets
-│ ├── /imgs
-│ │ ├── /header-youtube/
-│ │ ├── /main-youtube/
-│ │ └── /thumb-youtube/
-├── /css
-│ └── style.css
-└── reset.css
-
-
----
-
-## 📷 Preview
-
-![Preview do Projeto](assets/imgs/thumb-youtube/Thumb1.png)
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
