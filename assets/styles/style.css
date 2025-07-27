@@ -9,9 +9,13 @@ body {
 
 }
 
-h2, p {
-    color: black;
+/* h2 {
+  color: black;
 }
+
+p {
+  color: gray;
+} */
 
 /* Cabeçalho */
 
@@ -91,6 +95,7 @@ h2, p {
 .video-player h2 {
   font-size: 18px;
   margin-top: 12px;
+  color: black;
 }
 
 .channel-info {
@@ -106,6 +111,11 @@ h2, p {
 
 .channel-info h3 {
   margin: 0;
+  color: black;
+}
+
+.channel-info p {
+  color: #515151;
 }
 
 .subscribe-btn {
@@ -131,6 +141,10 @@ h2, p {
   cursor: pointer;
 }
 
+.video-actions p {
+  color: black;
+}
+
 .video-actions img {
   width: 20px;
 }
@@ -138,7 +152,11 @@ h2, p {
 .video-description h2 {
   font-size: 14px;
   margin-bottom: 8px;
-  color: #aaaaaa;
+  color: black;
+}
+
+.video-description p {
+  color: #515151;
 }
 
 .list-videos-youtube {
@@ -171,20 +189,29 @@ h2, p {
   object-fit: cover;
 }
 
+/*Aside - lista videos*/
+
 .video-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: #fff;
+  gap: 2px;
+  
 }
+
+
 
 .video-info h2 {
   font-size: 14px;
   margin: 0 0 4px;
+  color: black;
 }
+
+
 
 .video-info p {
   font-size: 12px;
   margin: 0;
-  color: #aaa;
+  color: #515155;
 }
